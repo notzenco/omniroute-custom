@@ -808,6 +808,7 @@ jobs:
           name: coverage-shard-${{ matrix.shard }}
           path: coverage-shard/*.json
           if-no-files-found: error
+          retention-days: 1
 
   test-bun-sqlite:
     name: Bun SQLite Compatibility
