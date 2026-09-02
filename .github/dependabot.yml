@@ -3,8 +3,7 @@ updates:
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
-      interval: "weekly"
-      day: "monday"
+      interval: "monthly"
     commit-message:
       prefix: "deps"
     open-pull-requests-limit: 10
@@ -51,20 +50,18 @@ updates:
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "weekly"
+      interval: "monthly"
 
   - package-ecosystem: "npm"
     directory: "/electron"
     schedule:
-      interval: "weekly"
-      day: "monday"
+      interval: "monthly"
     commit-message:
       prefix: "deps"
 
   - package-ecosystem: "docker"
     directory: "/"
     schedule:
-      interval: "weekly"
-      day: "monday"
+      interval: "monthly"
     commit-message:
       prefix: "deps"
